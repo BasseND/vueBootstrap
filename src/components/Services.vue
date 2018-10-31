@@ -1,11 +1,13 @@
 <template>
     <div class="service_container theme_section">
-        <div class="header_title">
-            <h2>{{mainTitle}}</h2>
-            <p>{{headerText}}</p>
-        </div>
-
         <b-container>
+            <b-row>
+                <div class="header_title">
+                    <h2>{{mainTitle}}</h2>
+                    <p>{{headerText}}</p>
+                </div>
+            </b-row>
+
             <b-row>
                 <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
                     <div class="srItem">
@@ -56,4 +58,6 @@ export default {
 };
 </script>
 <style lang="scss">
+.service_container {
+}
 </style>
