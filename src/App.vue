@@ -16,23 +16,49 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <div class="components_wrapper">
+
+      <Toolbar />
+      <Welcome />
+      <Home />
+      <Services />
+      <Testimonials />
+      <Blog />
+      <Footer />
+    </div>
   </div>
 </template>
 
 <script>
+import Toolbar from "/components/Toolbar.vue";
+import Welcome from "/components/Welcome.vue";
+import Home from "/components/Home.vue";
+import Services from "/components/Services.vue";
+import Testimonials from "/components/Testimonials.vue";
+import Blog from "/components/Blog.vue";
+import Footer from "/components/Footer.vue";
 export default {
-  name: 'app',
-  data () {
+  name: "app",
+  components: {
+    Toolbar,
+    Welcome,
+    Home,
+    Services,
+    Testimonials,
+    Blog,
+    Footer
+  },
+  data() {
     return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+      msg: "Welcome to Your Vue.js App"
+    };
   }
-}
+};
 </script>
 
 <style lang="scss">
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -40,7 +66,8 @@ export default {
   margin-top: 60px;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 
