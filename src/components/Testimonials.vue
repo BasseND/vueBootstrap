@@ -1,5 +1,5 @@
 <template>
-    <div class="toolbar_container">
+    <div class="testimonials_container theme_section">
         Testimonials Section
     </div>
 </template>

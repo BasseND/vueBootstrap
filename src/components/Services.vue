@@ -1,5 +1,5 @@
 <template>
-    <div class="toolbar_container">
+    <div class="service_container theme_section">
         Service Section
     </div>
 </template>

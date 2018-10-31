@@ -1,6 +1,6 @@
 <template>
-    <div class="toolbar_container">
-        Homme Section
+    <div class="home_container theme_section">
+        Home Section
     </div>
 </template>
 <script>

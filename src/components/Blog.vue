@@ -1,6 +1,6 @@
 <template>
     <div class="toolbar_container">
-        Toolbar
+        Blog Section
     </div>
 </template>
 <script>

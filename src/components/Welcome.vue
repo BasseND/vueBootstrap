@@ -1,5 +1,5 @@
 <template>
-    <div class="toolbar_container">
+    <div class="welcome_container ">
         Welcome Section
     </div>
 </template>

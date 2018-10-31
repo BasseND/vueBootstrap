@@ -1,5 +1,5 @@
 <template>
-    <div class="toolbar_container">
+    <div class="footer_container theme_section">
         Footer Section
     </div>
 </template>
