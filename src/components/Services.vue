@@ -63,7 +63,7 @@ export default {
   .srItem {
     text-align: center;
     .image {
-      background: url(/dist/srv_mask_icon.png?0ef39f3…);
+      background: url(../assets/img/srv_mask_icon.png);
       background-repeat: no-repeat;
       width: 135px;
       height: 135px;

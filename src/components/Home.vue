@@ -62,7 +62,7 @@ export default {
     padding: 65px 50px;
     margin-bottom: 30px;
     background-color: #fff;
-    background-image: url(/dist/bg_deco.png?a628797…);
+    background-image: url(../assets/img/bg_deco.png);
     background-size: cover;
     border-radius: 5px;
     -webkit-box-shadow: 0px 0px 10px 0px #e8eeff;
