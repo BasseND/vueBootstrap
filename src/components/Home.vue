@@ -2,19 +2,22 @@
     <div class="home_container theme_section">
         <b-container>
             <b-row>
-                <div class="header_title">
+                <b-col class="col-sm header_title">
                     <h2>{{mainTitle}}</h2>
                     <p>{{headerText}}</p>
-                </div>
+                </b-col>
             </b-row>
             <b-row>
                 <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
-                    <div class="srItem">
-                        <div class="image">
-                            <img :src="item.iconService" height="160px" />
+                    <div class="sItem">
+                        <div class="sContent">
+                            <div class="image">
+                                <!--img :src="item.iconService" height="160px" /-->
+                                <img src="../assets/img/icon02.png" alt="Logo">
+                            </div>
+                            <h3>{{item.title}}</h3>
+                            <p>{{item.description}}</p>
                         </div>
-                        <h3>{{item.title}}</h3>
-                        <p>{{item.description}}</p>
                     </div>
                 </b-col>
 
@@ -32,22 +35,19 @@ export default {
       servicesItems: [
         {
           title: "Almost before we knew it, we had left the ground",
-          iconService:
-            "https://image.freepik.com/vecteurs-libre/fond-d-39-ecran-religieux-eid-mubarak_1055-2500.jpg",
+          iconService: "../assets/img/icon01.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         },
         {
           title: "A shining crescent far beneath the flying vessel",
-          iconService:
-            "https://image.freepik.com/vecteurs-libre/fond-d-39-ecran-religieux-eid-mubarak_1055-2500.jpg",
+          iconService: "../assets/img/icon02.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         },
         {
           title: "She stared through the window at the stars",
-          iconService:
-            "https://image.freepik.com/vecteurs-libre/fond-d-39-ecran-religieux-eid-mubarak_1055-2500.jpg",
+          iconService: "../assets/img/icon03.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         }
@@ -57,4 +57,40 @@ export default {
 };
 </script>
 <style lang="scss">
+.home_container {
+  .sItem {
+    padding: 65px 50px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    background-image: url(/dist/bg_deco.png?a628797…);
+    background-size: cover;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px 0px #e8eeff;
+    box-shadow: 0px 0px 10px 0px #e8eeff;
+    text-align: left;
+    position: relative;
+    &:before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(255, 255, 255, 0.92);
+      top: 0;
+      left: 0;
+      z-index: 1;
+    }
+    .sContent {
+      position: relative;
+      z-index: 10;
+      .image {
+        margin-bottom: 10px;
+        img {
+        }
+      }
+      h3 {
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
 </style>

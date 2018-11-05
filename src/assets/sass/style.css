@@ -1,0 +1,179 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--- COLOR PALETTE ---
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 32px;
+  font-size: 14px;
+  color: #404d63;
+}
+
+img {
+  max-width: 100%;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nunito", sans-serif;
+  font-weight: normal;
+  color: #404d63;
+  margin-top: 0px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 35px;
+}
+
+h3 {
+  font-size: 28px;
+}
+
+h4 {
+  font-size: 22px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  color: inherit;
+}
+
+a,
+button {
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  cursor: pointer;
+  outline: medium none;
+  color: #095be2;
+}
+
+a:hover,
+button:hover {
+  text-decoration: none;
+  color: #095be2;
+}
+
+button.btn.btn-link {
+  text-decoration: none;
+}
+
+a:focus,
+button:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+button.btn {
+  background-color: #095be2;
+  color: #fff !important;
+  padding: 5px 20px;
+}
+
+button.btn:hover {
+  background-color: #2eadff;
+  color: #fff !important;
+}
+
+button.btn-revert {
+  background-color: #fff;
+  color: #095be2 !important;
+  padding: 5px 20px;
+}
+
+button.btn-revert:hover {
+  background-color: #2eadff;
+  color: #fff !important;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+  outline: 0;
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+textarea {
+  border-radius: 0;
+  border-color: #eff5f4;
+  color: #404d63;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  font-weight: normal;
+  color: #404d63;
+  margin-bottom: 15px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+hr {
+  border-bottom: 1px solid #eff5f4;
+  border-top: 0 none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+label {
+  color: #404d63;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* HEADER TITLE*/
+.theme_section {
+  padding: 70px 0;
+}
+
+.theme_section .header_title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+/*# sourceMappingURL=style.css.map */
