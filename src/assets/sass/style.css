@@ -30,15 +30,15 @@ h6 {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 70px;
 }
 
 h2 {
-  font-size: 35px;
+  font-size: 45px;
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 30px;
 }
 
 h4 {
@@ -178,5 +178,15 @@ label {
 .theme_section .header_title {
   text-align: center;
   margin-bottom: 45px;
+}
+
+.theme_section .header_title h2 {
+  margin-bottom: 60px;
+  font-size: 40px;
+  text-transform: capitalize;
+}
+
+.theme_section .header_title p {
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */

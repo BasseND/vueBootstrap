@@ -1,37 +1,39 @@
 <template>
-    <div class="service_container theme_section">
-        <b-container>
-            <b-row>
-                <b-col class="col-sm header_title">
-                    <h2>{{mainTitle}}</h2>
-                    <p>{{headerText}}</p>
-                </b-col>
-            </b-row>
+  <div class="service_container theme_section">
+    <b-container>
+      <b-row class="justify-content-md-center">
+        <b-col md="8" class="col-sm header_title">
+          <h2>{{mainTitle}}</h2>
+          <p>{{headerText}}</p>
+        </b-col>
+      </b-row>
 
-            <b-row>
-                <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
-                    <div class="srItem">
-                        <div class="image">
-                            <!--img :src="item.iconService" height="160px" /-->
-                            <img src="../assets/img/srIcon02.png" alt="Logo">
-                        </div>
+      <b-row>
+        <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
+          <div class="srItem">
+            <div class="image">
+              <!--img :src="item.iconService" height="160px" /-->
+              <img src="../assets/img/srIcon02.png" alt="Logo">
+            </div>
 
-                        <h2>{{item.pourcent}}</h2>
-                        <h3>{{item.title}}</h3>
-                    </div>
-                </b-col>
+            <h2>{{item.pourcent}}</h2>
+            <h4>{{item.title}}</h4>
+          </div>
+        </b-col>
 
-            </b-row>
-        </b-container>
-    </div>
+      </b-row>
+    </b-container>
+  </div>
 
 </template>
 <script>
 export default {
   data() {
     return {
-      mainTitle: "Services",
-      headerText: "All their equipment and instruments are alive.",
+      mainTitle:
+        "We are doing a little mile of this and of continued that support.",
+      headerText:
+        "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.",
       servicesItems: [
         {
           title: "Creativity",
@@ -72,6 +74,10 @@ export default {
       margin-bottom: 30px;
       img {
       }
+    }
+    h2 {
+      font-size: 50px;
+      margin-bottom: 20px;
     }
   }
 }

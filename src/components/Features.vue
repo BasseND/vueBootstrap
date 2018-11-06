@@ -85,6 +85,7 @@ export default {
     h3 {
       margin-top: 40px;
       margin-bottom: 55px;
+      line-height: 1.5;
     }
   }
   &.featuresTwo {
