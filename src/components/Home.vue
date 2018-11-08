@@ -12,8 +12,8 @@
           <div class="sItem">
             <div class="sContent">
               <div class="image">
-                <!--img :src="item.iconService" height="160px" /-->
-                <img src="../assets/img/icon02.png" alt="Logo">
+                <img :src="item.iconService" height="160px" />
+
               </div>
               <h3>{{item.title}}</h3>
               <p>{{item.description}}</p>
@@ -36,19 +36,19 @@ export default {
       servicesItems: [
         {
           title: "Almost before we knew it, we had left the ground",
-          iconService: "../assets/img/icon01.png",
+          iconService: "./src/assets/img/icon01.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         },
         {
           title: "A shining crescent far beneath the flying vessel",
-          iconService: "../assets/img/icon02.png",
+          iconService: "./src/assets/img/icon02.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         },
         {
           title: "She stared through the window at the stars",
-          iconService: "../assets/img/icon03.png",
+          iconService: "./src/assets/img/icon03.png",
           description:
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
         }
@@ -86,6 +86,7 @@ export default {
       .image {
         margin-bottom: 10px;
         img {
+          height: 90px;
         }
       }
       h3 {

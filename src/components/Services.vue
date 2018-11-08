@@ -12,8 +12,9 @@
         <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
           <div class="srItem">
             <div class="image">
-              <!--img :src="item.iconService" height="160px" /-->
-              <img src="../assets/img/srIcon02.png" alt="Logo">
+              <b-img :src="item.iconService" height="160px" />
+
+              <!--img src="../assets/img/srIcon02.png" alt="Logo"-->
             </div>
 
             <h2>{{item.pourcent}}</h2>
@@ -37,22 +38,22 @@ export default {
       servicesItems: [
         {
           title: "Creativity",
-          iconService: "../assets/img/srIcon01.png",
+          iconService: "./src/assets/img/srIcon01.png ",
           pourcent: "84%"
         },
         {
           title: "Development",
-          iconService: "../assets/img/srIcon02.png",
+          iconService: "./src/assets/img/srIcon02.png",
           pourcent: "92%"
         },
         {
           title: "Marketing",
-          iconService: "../assets/img/srIcon02.png",
+          iconService: "./src/assets/img/srIcon03.png",
           pourcent: "67%"
         },
         {
           title: "Success",
-          iconService: "../assets/img/srIcon02.png",
+          iconService: "./src/assets/img/srIcon04.png",
           pourcent: "98%"
         }
       ]
@@ -73,6 +74,7 @@ export default {
       margin: 0 auto;
       margin-bottom: 30px;
       img {
+        height: 50px;
       }
     }
     h2 {

@@ -1,6 +1,27 @@
 @import "_variables";
 @import "_mixin";
 @import "_preset";
+/* GENERAL */
+
+button.btn {
+    @include overlay_gradient(45deg, $gdBtnFromColor, $gdBtnToColor);
+}
+
+/* HEADER NAVBAR*/
+
+.toolbar_container {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    .nav-item {
+        .nav-link {
+            font-size: 15px;
+            font-weight: 600;
+            color: $mainColor;
+        }
+    }
+}
+
 /* HEADER TITLE*/
 
 .theme_section {
@@ -15,6 +36,52 @@
         }
         p {
             font-size: 20px;
+        }
+    }
+}
+
+/* FOOTER SECTION*/
+
+.footer_container {
+    padding-top: 130px;
+    padding-bottom: 85px;
+    background: #fff url(../img/bg_map.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 75%;
+    position: relative;
+    .footer_overlay {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        @include overlay_gradient(45deg, $gdFromColor, $gdToColor);
+    }
+    .footer_wrap {
+        .footer_box {
+            color: $colorWhite;
+            .footer_logo {
+                margin-bottom: 22px;
+            }
+            .footer_info {
+                p {
+                    color: $colorWhite;
+                }
+                .contact_info {
+                    color: $colorWhite;
+                }
+            }
+            h4 {
+                margin-bottom: 45px;
+                color: $colorWhite;
+            }
+            li {
+                margin-bottom: 10px;
+                a {
+                    color: $colorWhite;
+                }
+            }
         }
     }
 }

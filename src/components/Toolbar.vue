@@ -1,6 +1,6 @@
 <template>
     <div class="toolbar_container">
-        <b-navbar toggleable="md" type="dark" variant="info">
+        <b-navbar toggleable="md" type="light" variant="light">
 
             <b-navbar-toggle target="nav_collapse"></b-navbar-toggle>
 
@@ -26,10 +26,5 @@
 export default {};
 </script>
 <style lang="scss">
-.toolbar_container {
-  padding: 0;
-  margin: 0;
-  position: relative;
-}
 </style>
 
