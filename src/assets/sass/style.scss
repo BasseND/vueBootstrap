@@ -1,7 +1,13 @@
 @import "_variables";
 @import "_mixin";
 @import "_preset";
+
+/*@import "../fonts/_flaticon"; */
+
 /* GENERAL */
+
+
+
 
 button.btn {
     @include overlay_gradient(45deg, $gdBtnFromColor, $gdBtnToColor);
@@ -13,6 +19,7 @@ button.btn {
     padding: 0;
     margin: 0;
     position: relative;
+
     .nav-item {
         .nav-link {
             font-size: 15px;
@@ -26,16 +33,43 @@ button.btn {
 
 .theme_section {
     padding: 70px 0;
+
     .header_title {
         text-align: center;
         margin-bottom: 45px;
+
         h2 {
             margin-bottom: 60px;
             font-size: 40px;
             text-transform: capitalize;
         }
+
         p {
             font-size: 20px;
+        }
+    }
+}
+
+/* CONTACT US SECTION*/
+.contactUsBlock {
+    min-height: 240px;
+    position: relative;
+
+    .let_work_bloc {
+        position: absolute;
+        bottom: -100px;
+        left: 0;
+        width: 100%;
+        padding: 40px;
+        background: $colorWhite;
+        z-index: 99999;
+        border-radius: 30px;
+        -webkit-box-shadow: -1px 3px 20px 1px #97abe5;
+        box-shadow: -1px 3px 20px 1px #97abe5;
+
+        p {
+            font-size: 20px;
+            font-weight: 600;
         }
     }
 }
@@ -43,41 +77,50 @@ button.btn {
 /* FOOTER SECTION*/
 
 .footer_container {
-    padding-top: 130px;
+    padding-top: 240px;
     padding-bottom: 85px;
     background: #fff url(../img/bg_map.png);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 75%;
     position: relative;
+
     .footer_overlay {
         content: "";
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
+
         @include overlay_gradient(45deg, $gdFromColor, $gdToColor);
     }
+
     .footer_wrap {
         .footer_box {
             color: $colorWhite;
+
             .footer_logo {
                 margin-bottom: 22px;
             }
+
             .footer_info {
                 p {
                     color: $colorWhite;
                 }
+
                 .contact_info {
                     color: $colorWhite;
                 }
             }
+
             h4 {
                 margin-bottom: 45px;
                 color: $colorWhite;
             }
+
             li {
                 margin-bottom: 10px;
+
                 a {
                     color: $colorWhite;
                 }

@@ -1,0 +1,77 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 10/11/2018 15:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-user:before { content: "\f100"; }
+.flaticon-comment-black-oval-bubble-shape:before { content: "\f101"; }
+.flaticon-thumbs-up-hand-symbol:before { content: "\f102"; }
+.flaticon-telephone:before { content: "\f103"; }
+.flaticon-phone-receiver:before { content: "\f104"; }
+.flaticon-envelope:before { content: "\f105"; }
+.flaticon-home:before { content: "\f106"; }
+.flaticon-check:before { content: "\f107"; }
+.flaticon-eye-open:before { content: "\f108"; }
+.flaticon-map-marker:before { content: "\f109"; }
+.flaticon-twitter:before { content: "\f10a"; }
+.flaticon-linkedin:before { content: "\f10b"; }
+.flaticon-social-media:before { content: "\f10c"; }
+.flaticon-logo:before { content: "\f10d"; }
+.flaticon-twitter-1:before { content: "\f10e"; }
+.flaticon-pinterest:before { content: "\f10f"; }
+.flaticon-github:before { content: "\f110"; }
+.flaticon-arrow:before { content: "\f111"; }
+.flaticon-arrow-1:before { content: "\f112"; }
+    
+    $font-Flaticon-user: "\f100";
+    $font-Flaticon-comment-black-oval-bubble-shape: "\f101";
+    $font-Flaticon-thumbs-up-hand-symbol: "\f102";
+    $font-Flaticon-telephone: "\f103";
+    $font-Flaticon-phone-receiver: "\f104";
+    $font-Flaticon-envelope: "\f105";
+    $font-Flaticon-home: "\f106";
+    $font-Flaticon-check: "\f107";
+    $font-Flaticon-eye-open: "\f108";
+    $font-Flaticon-map-marker: "\f109";
+    $font-Flaticon-twitter: "\f10a";
+    $font-Flaticon-linkedin: "\f10b";
+    $font-Flaticon-social-media: "\f10c";
+    $font-Flaticon-logo: "\f10d";
+    $font-Flaticon-twitter-1: "\f10e";
+    $font-Flaticon-pinterest: "\f10f";
+    $font-Flaticon-github: "\f110";
+    $font-Flaticon-arrow: "\f111";
+    $font-Flaticon-arrow-1: "\f112";

@@ -9,6 +9,7 @@
       <Features />
       <Testimonials />
       <Blog />
+      <ContactUsBlock />
       <Footer />
     </div>
 
@@ -23,6 +24,7 @@ import Services from "./components/Services.vue";
 import Features from "./components/Features.vue";
 import Testimonials from "./components/Testimonials.vue";
 import Blog from "./components/Blog.vue";
+import ContactUsBlock from "./components/ContactUsBlock.vue";
 import Footer from "./components/Footer.vue";
 export default {
   components: {
@@ -33,6 +35,7 @@ export default {
     Features,
     Testimonials,
     Blog,
+    ContactUsBlock,
     Footer
   },
   name: "app",
@@ -45,5 +48,6 @@ export default {
 </script>
 
 <style lang="scss">
+@import url("./assets/css/flaticon.css");
 @import url("./assets/sass/style.css");
 </style>

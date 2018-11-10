@@ -1,6 +1,12 @@
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 --- COLOR PALETTE ---
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/*@font-face {
+    font-family: "Avenir Next LTPro ";
+    src: url("/assets/fonts/AvenirNextLTPro-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+}*/
 body {
   font-family: "Poppins";
   font-weight: 400;
@@ -170,6 +176,7 @@ label {
   font-weight: 400;
 }
 
+/*@import "../fonts/_flaticon"; */
 /* GENERAL */
 button.btn {
   background-image: linear-gradient(45deg, #fb515e, #fb694f);
@@ -209,9 +216,33 @@ button.btn {
   font-size: 20px;
 }
 
+/* CONTACT US SECTION*/
+.contactUsBlock {
+  min-height: 240px;
+  position: relative;
+}
+
+.contactUsBlock .let_work_bloc {
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  width: 100%;
+  padding: 40px;
+  background: #fff;
+  z-index: 99999;
+  border-radius: 30px;
+  -webkit-box-shadow: -1px 3px 20px 1px #97abe5;
+  box-shadow: -1px 3px 20px 1px #97abe5;
+}
+
+.contactUsBlock .let_work_bloc p {
+  font-size: 20px;
+  font-weight: 600;
+}
+
 /* FOOTER SECTION*/
 .footer_container {
-  padding-top: 130px;
+  padding-top: 240px;
   padding-bottom: 85px;
   background: #fff url(../img/bg_map.png);
   background-repeat: no-repeat;
