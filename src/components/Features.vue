@@ -1,5 +1,5 @@
 <template>
-    <div class="service_container theme_section">
+    <div class="feature_container theme_section">
         <div class="feature_section featuresOne">
             <b-container>
                 <b-row v-for="item in featuresOne" :key="item.title">
@@ -88,8 +88,19 @@ export default {
       line-height: 1.5;
     }
   }
+  &.featuresOne {
+    margin-top: 10px;
+    background: url(../assets/img/bg_featureOne.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+  }
   &.featuresTwo {
     margin-top: 70px;
+    background: url(../assets/img/bg_featureTwo.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
   }
 }
 </style>

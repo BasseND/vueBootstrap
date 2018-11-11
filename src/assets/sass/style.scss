@@ -1,13 +1,9 @@
 @import "_variables";
 @import "_mixin";
 @import "_preset";
-
 /*@import "../fonts/_flaticon"; */
 
 /* GENERAL */
-
-
-
 
 button.btn {
     @include overlay_gradient(45deg, $gdBtnFromColor, $gdBtnToColor);
@@ -19,7 +15,6 @@ button.btn {
     padding: 0;
     margin: 0;
     position: relative;
-
     .nav-item {
         .nav-link {
             font-size: 15px;
@@ -29,21 +24,44 @@ button.btn {
     }
 }
 
+/* WELCOME SECTION */
+
+.welcome_container {
+    background: #fff url(../img/bg_home.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    .welcome_content {
+        min-height: 920px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        .content {
+            h1 {
+                font-size: 50px;
+                line-height: 1.4;
+                margin-top: 20px;
+                margin-bottom: 50px;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+            .btn-getStarted {}
+        }
+    }
+}
+
 /* HEADER TITLE*/
 
 .theme_section {
     padding: 70px 0;
-
     .header_title {
         text-align: center;
         margin-bottom: 45px;
-
         h2 {
             margin-bottom: 60px;
             font-size: 40px;
             text-transform: capitalize;
         }
-
         p {
             font-size: 20px;
         }
@@ -51,10 +69,10 @@ button.btn {
 }
 
 /* CONTACT US SECTION*/
+
 .contactUsBlock {
     min-height: 240px;
     position: relative;
-
     .let_work_bloc {
         position: absolute;
         bottom: -100px;
@@ -63,13 +81,96 @@ button.btn {
         padding: 40px;
         background: $colorWhite;
         z-index: 99999;
-        border-radius: 30px;
+        border-radius: 6px;
         -webkit-box-shadow: -1px 3px 20px 1px #97abe5;
         box-shadow: -1px 3px 20px 1px #97abe5;
-
         p {
             font-size: 20px;
             font-weight: 600;
+        }
+    }
+}
+
+/* TESTIMONIALS SECTION */
+
+.testimonials_container {
+    background: url(../img/bg_testi.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    padding: 300px 0;
+    .title_ct {
+        h5 {
+            margin-top: 20px;
+            margin-bottom: 40px;
+            color: $colorWhite;
+        }
+        h2 {
+            margin-bottom: 40px;
+            color: $colorWhite;
+        }
+    }
+    .testiItem {
+        background: $colorWhite;
+        border-radius: 0;
+        -webkit-box-shadow: 0px 0px 10px 0px #78829f;
+        box-shadow: 0px 0px 10px 0px #78829f;
+        padding: 30px;
+        margin-top: 20px;
+        .image {
+            line-height: 50px;
+            margin-bottom: 30px;
+            img {
+                float: left;
+                height: 50px;
+                border-radius: 50%;
+                margin-right: 10px;
+            }
+            h4 {
+                margin-top: 10px;
+            }
+        }
+    }
+    .recta {
+        position: relative;
+        height: 300px;
+        .testiItem {
+            width: 400px;
+        }
+    }
+    .carre {
+        position: relative;
+        height: 300px;
+        .testiItem {
+            height: 300px;
+            width: 300px;
+        }
+    }
+    .testiOne {
+        .testiItem {
+            position: absolute;
+            top: -75px;
+        }
+    }
+    .testiTwo {
+        .testiItem {
+            position: absolute;
+            right: -68px;
+            top: -75px;
+        }
+    }
+    .testiTree {
+        .testiItem {
+            position: absolute;
+            left: -55px;
+            top: -60px;
+        }
+    }
+    .testiFour {
+        .testiItem {
+            position: absolute;
+            right: -30px;
+            top: -26px;
         }
     }
 }
@@ -84,43 +185,34 @@ button.btn {
     background-position: top center;
     background-size: 75%;
     position: relative;
-
     .footer_overlay {
         content: "";
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
-
         @include overlay_gradient(45deg, $gdFromColor, $gdToColor);
     }
-
     .footer_wrap {
         .footer_box {
             color: $colorWhite;
-
             .footer_logo {
                 margin-bottom: 22px;
             }
-
             .footer_info {
                 p {
                     color: $colorWhite;
                 }
-
                 .contact_info {
                     color: $colorWhite;
                 }
             }
-
             h4 {
                 margin-bottom: 45px;
                 color: $colorWhite;
             }
-
             li {
                 margin-bottom: 10px;
-
                 a {
                     color: $colorWhite;
                 }

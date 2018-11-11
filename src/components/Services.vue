@@ -63,6 +63,11 @@ export default {
 </script>
 <style lang="scss">
 .service_container {
+  background: url(../assets/img/bg_services.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 300px 0;
   .srItem {
     text-align: center;
     .image {
