@@ -9,7 +9,7 @@
       </b-row>
 
       <b-row>
-        <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
+        <b-col cols="12" sm="12" md="6" lg="3" class="col-sm" v-for="item in servicesItems" :key="item.title">
           <div class="srItem">
             <div class="image">
               <b-img :src="item.iconService" height="160px" />

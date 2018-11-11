@@ -188,6 +188,11 @@ button.btn {
   padding: 0;
   margin: 0;
   position: relative;
+  background: #fff;
+  width: 100%;
+  margin-top: 0px;
+  -webkit-box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
+  box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
 }
 
 .toolbar_container .nav-item .nav-link {
@@ -225,6 +230,8 @@ button.btn {
 
 .welcome_container .welcome_content .content p {
   margin-bottom: 30px;
+  font-size: 20px;
+  margin-right: 140px;
 }
 
 /* HEADER TITLE*/
@@ -287,7 +294,7 @@ button.btn {
 }
 
 .testimonials_container .title_ct h2 {
-  margin-bottom: 40px;
+  margin-bottom: 70px;
   color: #fff;
 }
 

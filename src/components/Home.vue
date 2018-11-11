@@ -8,7 +8,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col class="col-sm" v-for="item in servicesItems" :key="item.title">
+        <b-col sm="12" md="12" lg="4" v-for="item in servicesItems" :key="item.title">
           <div class="sItem">
             <div class="sContent">
               <div class="image">

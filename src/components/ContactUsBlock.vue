@@ -1,5 +1,5 @@
 <template>
-    <div class="toolbar_container">
+    <div class="contactUsBlock_container">
         <b-container class="bv-example-row bv-example-row-flex-cols">
             <div class="contactUsBlock ">
                 <div class="let_work_bloc">

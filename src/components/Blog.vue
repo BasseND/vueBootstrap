@@ -9,7 +9,7 @@
       </b-row>
 
       <b-row>
-        <b-col sm="12" md="4" lg="4" class="col-sm" v-for="item in blogItems" :key="item.title">
+        <b-col cols="12" sm="12" md="6" lg="4" class="col-sm" v-for="item in blogItems" :key="item.title">
           <div class="blogItem">
 
             <div class="image">
@@ -19,7 +19,7 @@
             <div class="content">
 
               <h4>{{item.title}}</h4>
-              <div class="content_info">
+              <div class="content_info d-flex align-items-center">
                 <span><i class="flaticon-user"></i> John Dao</span>
                 <span><i class="flaticon-user"></i> 0 comment</span>
                 <span><i class="flaticon-user"></i> Like</span>
@@ -38,8 +38,7 @@
 export default {
   data() {
     return {
-      mainTitle:
-        "We are doing a little mile of this and of continued that support.",
+      mainTitle: "Read our lastest blog post.",
       headerText:
         "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.",
       blogItems: [
@@ -103,6 +102,9 @@ export default {
     .content {
       padding: 30px;
       .content_info {
+        span {
+          margin-right: 10px;
+        }
       }
     }
   }

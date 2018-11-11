@@ -1,73 +1,73 @@
 <template>
-    <div class="footer_container theme_section">
-        <div class="footer_overlay"></div>
-        <div class="footer_wrap">
-            <b-container class="bv-example-row bv-example-row-flex-cols">
+  <div class="footer_container theme_section">
+    <div class="footer_overlay"></div>
+    <div class="footer_wrap">
+      <b-container class="bv-example-row bv-example-row-flex-cols">
 
-                <b-row align-v="top">
-                    <b-col sm="12" md="4" lg="4" class="footer_box">
-                        <div class="footer_logo">
-                            <img src="../assets/img/logo_white.png" alt="Logo">
-                        </div>
-                        <div class="footer_info">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
-                            <div class="contact_info">
-                                <ul>
-                                    <li>(+61) 879 815 125</li>
-                                    <li>translang@gmail.com</li>
-                                    <li>01, Central Park, NYK</li>
-                                </ul>
-                            </div>
-                        </div>
+        <b-row align-v="top">
+          <b-col sm="12" md="6" lg="4" class="footer_box">
+            <div class="footer_logo">
+              <img src="../assets/img/logo_white.png" alt="Logo">
+            </div>
+            <div class="footer_info">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+              <div class="contact_info">
+                <ul>
+                  <li>(+61) 879 815 125</li>
+                  <li>translang@gmail.com</li>
+                  <li>01, Central Park, NYK</li>
+                </ul>
+              </div>
+            </div>
 
-                    </b-col>
+          </b-col>
 
-                    <b-col sm="12" md="6" lg="2" class="footer_box">
-                        <h4>Support</h4>
-                        <ul>
-                            <li v-for="supportLink in supportLinks" :key="supportLink.title">
-                                <b-link :href="supportLink.link">{{supportLink.title}}</b-link>
-                            </li>
-                        </ul>
+          <b-col cols="12" sm="12" md="6" lg="2" class="footer_box">
+            <h4>Support</h4>
+            <ul>
+              <li v-for="supportLink in supportLinks" :key="supportLink.title">
+                <b-link :href="supportLink.link">{{supportLink.title}}</b-link>
+              </li>
+            </ul>
 
-                    </b-col>
+          </b-col>
 
-                    <b-col sm="12" md="6" lg="2" class="footer_box">
-                        <h4>Services</h4>
-                        <ul>
-                            <li v-for="servicesLink in servicesLinks" :key="servicesLink.title">
-                                <b-link :href="servicesLink.link">{{servicesLink.title}}</b-link>
-                            </li>
-                        </ul>
+          <b-col cols="12" sm="12" md="6" lg="2" class="footer_box">
+            <h4>Services</h4>
+            <ul>
+              <li v-for="servicesLink in servicesLinks" :key="servicesLink.title">
+                <b-link :href="servicesLink.link">{{servicesLink.title}}</b-link>
+              </li>
+            </ul>
 
-                    </b-col>
+          </b-col>
 
-                    <b-col sm="12" md="6" lg="2" class="footer_box">
-                        <h4>Links</h4>
-                        <ul>
-                            <li v-for="mainLink in mainLinks" :key="mainLink.title">
-                                <b-link :href="mainLink.link">{{mainLink.title}}</b-link>
-                            </li>
-                        </ul>
+          <b-col cols="12" sm="12" md="6" lg="2" class="footer_box">
+            <h4>Links</h4>
+            <ul>
+              <li v-for="mainLink in mainLinks" :key="mainLink.title">
+                <b-link :href="mainLink.link">{{mainLink.title}}</b-link>
+              </li>
+            </ul>
 
-                    </b-col>
+          </b-col>
 
-                    <b-col sm="12" md="6" lg="2" class="footer_box">
-                        <h4>Follow Us</h4>
-                        <ul>
-                            <li v-for="followUsLink in followUsLinks" :key="followUsLink.title">
-                                <b-link :href="followUsLink.link">{{followUsLink.title}}</b-link>
-                            </li>
-                        </ul>
+          <b-col cols="12" sm="12" md="6" lg="2" class="footer_box">
+            <h4>Follow Us</h4>
+            <ul>
+              <li v-for="followUsLink in followUsLinks" :key="followUsLink.title">
+                <b-link :href="followUsLink.link">{{followUsLink.title}}</b-link>
+              </li>
+            </ul>
 
-                    </b-col>
+          </b-col>
 
-                </b-row>
+        </b-row>
 
-            </b-container>
+      </b-container>
 
-        </div>
     </div>
+  </div>
 </template>
 <script>
 export default {
