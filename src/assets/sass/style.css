@@ -195,7 +195,18 @@ button.btn {
   box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
 }
 
-.toolbar_container .nav-item .nav-link {
+.toolbar_container .navbar {
+  width: 100%;
+  padding: 0;
+}
+
+.toolbar_container .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.toolbar_container .navbar .navbar-collapse .nav-item .nav-link {
   font-size: 15px;
   font-weight: 600;
   color: #112167;
