@@ -17,6 +17,7 @@
 </template>
 
 <script>
+import Toolbar from "./components/Toolbar.vue";
 import Welcome from "./components/Welcome.vue";
 import Home from "./components/Home.vue";
 import Services from "./components/Services.vue";
@@ -47,4 +48,6 @@ export default {
 </script>
 
 <style lang="scss">
+@import url("./assets/css/flaticon.css");
+@import url("./assets/sass/style.css");
 </style>
