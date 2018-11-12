@@ -9,7 +9,7 @@
                             <h2>Are you ready ? Let's work ?</h2>
                         </b-col>
                         <b-col sm="12" md="3" lg="3">
-                            <b-button class="btn-getStarted" size="lg">
+                            <b-button v-b-modal.modal-center class="btn-getStarted" size="lg">
                                 Contact Us
                             </b-button>
                         </b-col>
@@ -17,7 +17,16 @@
                     </b-row>
                 </div>
             </div>
+
         </b-container>
+
+        <div>
+
+            <!-- Modal Component -->
+            <b-modal id="modal-center" size="lg" centered title="Contact Us">
+                <p class="my-4">Vertically centered modal!</p>
+            </b-modal>
+        </div>
     </div>
 </template>
 <script>

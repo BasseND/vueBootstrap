@@ -88,7 +88,7 @@ button.btn {
 /* CONTACT US SECTION*/
 
 .contactUsBlock {
-    min-height: 240px;
+    min-height: 160px;
     position: relative;
     .let_work_bloc {
         position: absolute;
@@ -97,7 +97,7 @@ button.btn {
         width: 100%;
         padding: 40px;
         background: $colorWhite;
-        z-index: 99999;
+        z-index: 10;
         border-radius: 6px;
         -webkit-box-shadow: -1px 3px 20px 1px #97abe5;
         box-shadow: -1px 3px 20px 1px #97abe5;
