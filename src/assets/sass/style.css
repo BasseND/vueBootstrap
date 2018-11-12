@@ -195,6 +195,10 @@ button.btn {
   box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
 }
 
+.toolbar_container img {
+  height: 50px;
+}
+
 .toolbar_container .navbar {
   width: 100%;
   padding: 0;
@@ -403,6 +407,10 @@ button.btn {
 
 .footer_container .footer_wrap .footer_box .footer_logo {
   margin-bottom: 22px;
+}
+
+.footer_container .footer_wrap .footer_box .footer_logo img {
+  height: 55px;
 }
 
 .footer_container .footer_wrap .footer_box .footer_info p {
