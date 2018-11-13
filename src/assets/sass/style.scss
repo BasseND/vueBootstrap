@@ -1,6 +1,7 @@
 @import "_variables";
 @import "_mixin";
 @import "_preset";
+
 /*@import "../fonts/_flaticon"; */
 
 /* GENERAL */
@@ -12,22 +13,27 @@ button.btn {
 /* HEADER NAVBAR*/
 
 .toolbar_container {
+    position: fixed;
+    z-index: 999;
     padding: 0;
     margin: 0;
-    position: relative;
     background: #fff;
     width: 100%;
     margin-top: 0px;
     -webkit-box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
     box-shadow: 2px 2px 5px rgba(80, 90, 177, 0.34);
+
     img {
         height: 50px;
     }
+
     .navbar {
         width: 100%;
         padding: 0;
+
         .navbar-collapse {
             justify-content: flex-end;
+
             .nav-item {
                 .nav-link {
                     font-size: 15px;
@@ -45,11 +51,13 @@ button.btn {
     background: #fff url(../img/bg_home.png);
     background-repeat: no-repeat;
     background-position: top right;
+
     .welcome_content {
         min-height: 920px;
         display: flex;
         justify-content: start;
         align-items: center;
+
         .content {
             h1 {
                 font-size: 50px;
@@ -57,11 +65,13 @@ button.btn {
                 margin-top: 20px;
                 margin-bottom: 50px;
             }
+
             p {
                 margin-bottom: 30px;
                 font-size: 20px;
                 margin-right: 140px;
             }
+
             .btn-getStarted {}
         }
     }
@@ -71,14 +81,17 @@ button.btn {
 
 .theme_section {
     padding: 70px 0;
+
     .header_title {
         text-align: center;
         margin-bottom: 45px;
+
         h2 {
             margin-bottom: 60px;
             font-size: 40px;
             text-transform: capitalize;
         }
+
         p {
             font-size: 20px;
         }
@@ -90,6 +103,7 @@ button.btn {
 .contactUsBlock {
     min-height: 160px;
     position: relative;
+
     .let_work_bloc {
         position: absolute;
         bottom: -100px;
@@ -101,6 +115,7 @@ button.btn {
         border-radius: 6px;
         -webkit-box-shadow: -1px 3px 20px 1px #97abe5;
         box-shadow: -1px 3px 20px 1px #97abe5;
+
         p {
             font-size: 20px;
             font-weight: 600;
@@ -116,17 +131,20 @@ button.btn {
     background-position: top left;
     background-size: contain;
     padding: 300px 0;
+
     .title_ct {
         h5 {
             margin-top: 20px;
             margin-bottom: 40px;
             color: $colorWhite;
         }
+
         h2 {
             margin-bottom: 70px;
             color: $colorWhite;
         }
     }
+
     .testiItem {
         background: $colorWhite;
         border-radius: 0;
@@ -134,41 +152,50 @@ button.btn {
         box-shadow: 0px 0px 10px 0px #78829f;
         padding: 30px;
         margin-top: 20px;
+
         .image {
             line-height: 50px;
             margin-bottom: 30px;
+
             img {
                 float: left;
                 height: 50px;
                 border-radius: 50%;
                 margin-right: 10px;
             }
+
             h4 {
                 margin-top: 10px;
             }
         }
     }
+
     .recta {
         position: relative;
         height: 300px;
+
         .testiItem {
             width: 400px;
         }
     }
+
     .carre {
         position: relative;
         height: 300px;
+
         .testiItem {
             height: 300px;
             width: 300px;
         }
     }
+
     .testiOne {
         .testiItem {
             position: absolute;
             top: -75px;
         }
     }
+
     .testiTwo {
         .testiItem {
             position: absolute;
@@ -176,6 +203,7 @@ button.btn {
             top: -75px;
         }
     }
+
     .testiTree {
         .testiItem {
             position: absolute;
@@ -183,6 +211,7 @@ button.btn {
             top: -60px;
         }
     }
+
     .testiFour {
         .testiItem {
             position: absolute;
@@ -202,37 +231,47 @@ button.btn {
     background-position: top center;
     background-size: 75%;
     position: relative;
+
     .footer_overlay {
         content: "";
         position: absolute;
         width: 100%;
         height: 100%;
         top: 0;
+
         @include overlay_gradient(45deg, $gdFromColor, $gdToColor);
     }
+
     .footer_wrap {
         .footer_box {
             color: $colorWhite;
+
             .footer_logo {
                 margin-bottom: 22px;
+
                 img {
                     height: 55px;
                 }
             }
+
             .footer_info {
                 p {
                     color: $colorWhite;
                 }
+
                 .contact_info {
                     color: $colorWhite;
                 }
             }
+
             h4 {
                 margin-bottom: 45px;
                 color: $colorWhite;
             }
+
             li {
                 margin-bottom: 10px;
+
                 a {
                     color: $colorWhite;
                 }
