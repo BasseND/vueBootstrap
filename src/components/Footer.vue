@@ -13,9 +13,9 @@
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
               <div class="contact_info">
                 <ul>
-                  <li>(+61) 879 815 125</li>
-                  <li>translang@gmail.com</li>
-                  <li>01, Central Park, NYK</li>
+                  <li><i class="fi flaticon-telephone"></i> (+61) 879 815 125</li>
+                  <li><i class="fi flaticon-envelope"></i> translang@gmail.com</li>
+                  <li><i class="fi flaticon-map-marker"></i> 01, Central Park, NYK</li>
                 </ul>
               </div>
             </div>

@@ -20,9 +20,9 @@
 
               <h4>{{item.title}}</h4>
               <div class="content_info d-flex align-items-center">
-                <span><i class="flaticon-user"></i> John Dao</span>
-                <span><i class="flaticon-user"></i> 0 comment</span>
-                <span><i class="flaticon-user"></i> Like</span>
+                <span><i class="fi flaticon-user"></i> John Dao</span>
+                <span><i class="fi flaticon-comment-black-oval-bubble-shape"></i> 0 comment</span>
+                <span><i class="fi flaticon-thumbs-up-hand-symbol"></i> Like</span>
               </div>
 
             </div>

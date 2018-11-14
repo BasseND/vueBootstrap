@@ -47,12 +47,22 @@ module.exports = {
           use: "css-loader"
         })
       },
+
       {
         //test: /\.(png|jpg|gif|svg)$/,
-        test: /\.(png|woff|woff2|eot|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/,
+        test: /\.(png|jpg|gif|svg)$/,
         loader: "file-loader",
         options: {
           name: "[name].[ext]?[hash]"
+        }
+      },
+      {
+        test: /\.(ttf|eot|woff|woff2)$/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[name].[ext]"
+          }
         }
       }
     ]
