@@ -49,31 +49,31 @@ export default {
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         },
         {
-          title: "Enim ad minim veniam",
+          title: "Enim ads minim veniam",
           blogImg: "./src/assets/img/blog02.png",
           teaserText:
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         },
         {
-          title: "Ut enim ad minim veniam",
+          title: "Ut enims ad minim veniam",
           blogImg: "./src/assets/img/blog03.png",
           teaserText:
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         },
         {
-          title: "Enim ad minim veniam",
+          title: "Enim ad mianim veniam",
           blogImg: "./src/assets/img/blog04.png",
           teaserText:
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         },
         {
-          title: "Ut enim ad minim veniam",
+          title: "Ut enim ad minimz veniam",
           blogImg: "./src/assets/img/blog05.png",
           teaserText:
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."
         },
         {
-          title: "Enim ad minim veniam",
+          title: "Enim ad minim veniamaer",
           blogImg: "./src/assets/img/blog06.png",
           teaserText:
             "Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle."

@@ -97,11 +97,11 @@ export default {
       ],
       servicesLinks: [
         {
-          title: "Master Mind",
+          title: "Master Minds",
           link: "google.com"
         },
         {
-          title: "Junior Lambs",
+          title: "Junior Lamb",
           link: "google.com"
         },
         {

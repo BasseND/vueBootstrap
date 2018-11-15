@@ -25,10 +25,10 @@
             <!-- Modal Component -->
             <b-modal id="modal-center" size="md" centered title="Contact Us">
                 <div class="form_container">
-                    <b-form-input class="mb-3" v-model="text1" type="text" placeholder="Enter your name"></b-form-input>
-                    <b-form-input class="mb-3" v-model="text1" type="email" placeholder="Enter your Email"></b-form-input>
-                    <b-form-input class="mb-3" v-model="text1" type="text" placeholder="Subject"></b-form-input>
-                    <b-form-textarea class="mb-3" id="textarea1" v-model="text" placeholder="Message" :rows="3" :max-rows="6">
+                    <b-form-input class="mb-3" type="text" placeholder="Enter your name"></b-form-input>
+                    <b-form-input class="mb-3" type="email" placeholder="Enter your Email"></b-form-input>
+                    <b-form-input class="mb-3" type="text" placeholder="Subject"></b-form-input>
+                    <b-form-textarea class="mb-3" id="textarea1" placeholder="Message" :rows="3" :max-rows="6">
                     </b-form-textarea>
                 </div>
             </b-modal>
